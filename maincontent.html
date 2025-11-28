@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+
+    <span class="border trans" style="font: 40px;">
+        <center>Welcome all to this website</center>
+    </span><br>
+
+    <section class="section section-dark">
+        <h2>Section One</h2>
+        <p>
+            Web development is the work involved in developing a website for the internet(World Wide Web) or an
+            intranet(a prive network).
+
+        </p>
+    
+
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border trans">
+                Image Two text
+            </span>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>@copy all rights and reserved by kwame</p>
+    </div>
+
+    <style>
+
+        
+          
+        .pimg1,.pimg2,.pimg3 {
+            position: relative;
+            opacity: 0.70;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .pimg1 {
+            background-image: url('mountain-9724688_1280.jpg');
+            min-height: 100%;
+        }
+
+        .pimg2 {
+            background-image: url('sun.png');
+            min-height: 400px;
+        }
+
+        .pimg3 {
+            background-image: url('bird.jpg');
+            padding: 400px;
+        }
+
+        .section {
+            text-align: center;
+            padding: 50px 50px;
+        }
+
+        .section-light {
+            background-color: gray;
+            color: aqua;
+        }
+
+        .section-dark {
+            background-color: black;
+            color: blanchedalmond;
+        }
+
+        .ptext {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: black;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+
+
+        }
+
+        .ptext .border {
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+
+        .ptext .border.trans {
+            background-color: transparent;
+        }
+
+        .media (max-width:568px) {
+            .pimg1,.pimg2, .pimg3 
+            background-attatchments:scroll;
+
+
+        }
+
+
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
+
+</body>
+
+</html>
